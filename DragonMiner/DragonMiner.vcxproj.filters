@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DragonMiner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonMinerDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonMinerView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticMine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PigMine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Treasure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tnt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DragonMiner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonMinerDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonMinerView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticMine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PigMine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Treasure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Tnt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DragonMiner.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DragonMiner.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wave1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DragonMinerDoc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\DragonMiner.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Background.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\BigStone.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Diamond.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Dragon.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Hook.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\LargeGold.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\LittleGold.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\MidGold.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Pig.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\PigWithDiamond.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Stone.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\TNT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\resources\Treasure.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Background.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\BigStone.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Diamond.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Dragon.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Hook.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LargeGold.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\LittleGold.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MidGold.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pig.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\PigWithDiamond.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Stone.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\TNT.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Treasure.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Brief.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Setting.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Yes.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pig2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\PigWithDiamond2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Explosion.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HookIn.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\HookOut.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SingleDPig.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\SinglePig.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\mus\button.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\mus\catch.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\mus\pullmine.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\mus\getmoney.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\mus\explode.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\mus\getbuff.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\mus\hookout.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\mus\skillsound.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
