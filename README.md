@@ -1,2 +1,0 @@
-# DragonMiner
-MFC Gold Miner
