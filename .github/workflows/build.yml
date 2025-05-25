@@ -1,0 +1,28 @@
+name: Build DragonMiner MFC Game
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build MFC EXE
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1.3.1
+
+      - name: Build with MSBuild
+        run: |
+          msbuild DragonMiner.sln /p:Configuration=Release /p:Platform=x64
+
+      - name: Upload EXE artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: DragonMiner-exe
+          path: |
+            x64/Release/DragonMiner.exe
